@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_multi_text_fields",
+  "info": {
+    "name": "Text Field",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

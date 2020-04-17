@@ -1,8 +1,8 @@
 {
   "name": "portfolio-cms",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "0.1.1",
+  "description": "My portfolio CMS",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -13,13 +13,14 @@
   "dependencies": {
     "strapi": "3.0.0-beta.19.5",
     "strapi-admin": "3.0.0-beta.19.5",
-    "strapi-utils": "3.0.0-beta.19.5",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.19.5",
+    "strapi-connector-mongoose": "3.0.0-beta.19.5",
     "strapi-plugin-content-manager": "3.0.0-beta.19.5",
-    "strapi-plugin-users-permissions": "3.0.0-beta.19.5",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.19.5",
     "strapi-plugin-email": "3.0.0-beta.19.5",
     "strapi-plugin-upload": "3.0.0-beta.19.5",
-    "strapi-connector-mongoose": "3.0.0-beta.19.5"
+    "strapi-plugin-users-permissions": "3.0.0-beta.19.5",
+    "strapi-provider-upload-cloudinary": "3.0.0-beta.19.5",
+    "strapi-utils": "3.0.0-beta.19.5"
   },
   "author": {
     "name": "Ido Galili"

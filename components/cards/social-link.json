@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "components_cards_social_links",
+  "info": {
+    "name": "Social Link",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
