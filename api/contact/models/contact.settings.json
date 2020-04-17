@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.social-link"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

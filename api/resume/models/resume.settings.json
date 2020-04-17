@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "resumes",
+  "info": {
+    "name": "Resume"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "introduction": {
+      "type": "text"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tables.resume-block"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
