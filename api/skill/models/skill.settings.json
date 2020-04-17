@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "skills",
+  "info": {
+    "name": "Skill"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "level": {
+      "type": "enumeration",
+      "enum": [
+        "Novice",
+        "Beginner",
+        "Competent",
+        "Proficient",
+        "Expert"
+      ],
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Front_end",
+        "Back_end"
+      ]
+    }
+  }
+}
