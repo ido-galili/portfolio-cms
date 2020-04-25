@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `resume` model.
+ * Lifecycle callbacks for the `homepage` model.
  */
 
 module.exports = {
