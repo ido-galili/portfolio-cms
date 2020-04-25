@@ -1,8 +1,8 @@
 {
   "name": "portfolio-cms",
   "private": true,
-  "version": "0.1.1",
-  "description": "My portfolio CMS",
+  "version": "0.2",
+  "description": "Ido Galili portfolio CMS",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",

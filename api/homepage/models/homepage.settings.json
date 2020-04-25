@@ -1,9 +1,9 @@
 {
   "kind": "singleType",
   "connection": "default",
-  "collectionName": "abouts",
+  "collectionName": "homepages",
   "info": {
-    "name": "About"
+    "name": "Homepage"
   },
   "options": {
     "increments": true,
@@ -15,7 +15,8 @@
       "required": true
     },
     "job_title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "avatar": {
       "model": "file",
@@ -25,7 +26,17 @@
     },
     "description": {
       "type": "richtext",
-      "required": true
+      "required": false
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.social-link"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tables.resume-block"
     }
   }
 }
