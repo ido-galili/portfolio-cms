@@ -10,7 +10,7 @@
     "timestamps": true
   },
   "attributes": {
-    "level": {
+    "proficiency_level": {
       "type": "enumeration",
       "enum": [
         "Novice",
@@ -37,6 +37,12 @@
         "Front_end",
         "Back_end"
       ]
+    },
+    "proficiency_scale": {
+      "type": "integer",
+      "required": true,
+      "max": 10,
+      "min": 1
     }
   }
 }
